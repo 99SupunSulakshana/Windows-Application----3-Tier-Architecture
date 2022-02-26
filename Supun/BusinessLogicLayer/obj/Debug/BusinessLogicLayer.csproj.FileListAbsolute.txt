@@ -1,0 +1,16 @@
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.exe.config
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.exe
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\App_properties.exe
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\DataAccessLayer.exe
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\App_properties.pdb
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\App_properties.exe.config
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\DataAccessLayer.pdb
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.Properties.Resources.resources
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.GenerateResource.cache
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.exe
+D:\Sanjana\Sanjana ICBT\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb

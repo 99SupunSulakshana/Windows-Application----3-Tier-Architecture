@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9AF8ACCE-1FCB-42CB-99A0-505DDB39FC59}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sanjana_ICBT</RootNamespace>
+    <AssemblyName>Sanjana ICBT</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMain.Designer.cs">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminNotify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminNotify.Designer.cs">
+      <DependentUpon>AdminNotify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUserAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminUserAccess.Designer.cs">
+      <DependentUpon>AdminUserAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerMain.Designer.cs">
+      <DependentUpon>CustomerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerManager.Designer.cs">
+      <DependentUpon>CustomerManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventManager.Designer.cs">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EventsCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EventsCust.Designer.cs">
+      <DependentUpon>EventsCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerMain.Designer.cs">
+      <DependentUpon>ManagerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotifyManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotifyManager.Designer.cs">
+      <DependentUpon>NotifyManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipatantCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticipatantCust.Designer.cs">
+      <DependentUpon>ParticipatantCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParticipatantManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParticipatantManager.Designer.cs">
+      <DependentUpon>ParticipatantManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentation Layer\Customer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentation Layer\Customer.Designer.cs">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationMenager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationMenager.Designer.cs">
+      <DependentUpon>RegistrationMenager.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminMain.resx">
+      <DependentUpon>AdminMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminNotify.resx">
+      <DependentUpon>AdminNotify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminUserAccess.resx">
+      <DependentUpon>AdminUserAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerMain.resx">
+      <DependentUpon>CustomerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerManager.resx">
+      <DependentUpon>CustomerManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventManager.resx">
+      <DependentUpon>EventManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EventsCust.resx">
+      <DependentUpon>EventsCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMain.resx">
+      <DependentUpon>ManagerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotifyManager.resx">
+      <DependentUpon>NotifyManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipatantCust.resx">
+      <DependentUpon>ParticipatantCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParticipatantManager.resx">
+      <DependentUpon>ParticipatantManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentation Layer\Customer.resx">
+      <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegistrationMenager.resx">
+      <DependentUpon>RegistrationMenager.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\App_properties\App_properties.csproj">
+      <Project>{7badc000-46b9-47ed-a903-ed641623c78f}</Project>
+      <Name>App_properties</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{b0593f1c-d424-46cb-abbe-4ea5247ca64e}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj">
+      <Project>{6dc0655c-ff7e-49fd-9e1b-157b6fbada38}</Project>
+      <Name>DataAccessLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

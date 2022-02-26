@@ -1,0 +1,13 @@
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\DAL.Properties.Resources.resources
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\BusinessLogicLayer.csproj.GenerateResource.cache
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\DAL.exe.config
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\DAL.exe
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\DAL.pdb
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\BLL.exe
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\BLL.pdb
+D:\Sanjana\Sanjana ICBT\DAL\bin\Debug\BLL.exe.config
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\DAL.exe
+D:\Sanjana\Sanjana ICBT\DAL\obj\Debug\DAL.pdb

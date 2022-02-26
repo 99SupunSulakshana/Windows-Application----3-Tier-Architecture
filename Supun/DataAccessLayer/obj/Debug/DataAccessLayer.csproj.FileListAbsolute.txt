@@ -1,0 +1,8 @@
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\bin\Debug\DataAccessLayer.exe.config
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\bin\Debug\DataAccessLayer.exe
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\obj\Debug\DataAccessLayer.Properties.Resources.resources
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\obj\Debug\DataAccessLayer.exe
+D:\Sanjana\Sanjana ICBT\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
